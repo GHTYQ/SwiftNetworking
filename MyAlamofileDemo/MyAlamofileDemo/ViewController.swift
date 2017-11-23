@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         AlamofireNetWork.shared.request(method: .post, url: "https://zch.kuosanyun.com/coupon/display_style_templates_v2/", parmeters: parms) { (result) in
             print(result)
         }
+        /*********ssss***********/
     }
 
     override func didReceiveMemoryWarning() {
